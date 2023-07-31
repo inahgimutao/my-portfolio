@@ -42,7 +42,7 @@ export default function Home() {
         <div className="text-center p-10">
           <h2 className="text-5xl py-2 text-teal-600 font-medium">Regina Gimutao</h2>
           <h3 className="text-2xl py-2 dark:text-white">Junior Software Developer</h3>
-          <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">I&apos;m a developer exploring TailwindCSS and javascript libraries like ReactJS and NextJS.</p>
+          <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">I&apos;m a developer exploring javascript libraries like ReactJS and NextJS and CSS frameworks like TailwindCSS and Shadcn/ui.</p>
         </div>
 
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -54,7 +54,7 @@ export default function Home() {
           </Link>
           <Link className="hover:text-black" href="https://www.facebook.com/Im.Regina.Gimutao">
             <AiFillFacebook />
-            </Link>
+          </Link>
         </div>
 
         <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden">
@@ -116,10 +116,18 @@ export default function Home() {
                   Are you interested in my projects? Kindly add/follow me on social media.
                 </p>
                 <h4 className="py-4 text-teal-600">Social Medias</h4>
-                <p className="text-gray-800 py-1">Github</p>
-                <p className="text-gray-800 py-1">Linkedin</p>
-                <p className="text-gray-800 py-1">Facebook</p>
-                <p className="text-gray-800 py-1">Instagram</p>
+                <Link className="hover:text-black" href="https://github.com/inahgimutao">
+                    <p className="text-gray-800 hover:text-teal-500 py-1">Github</p>
+                </Link>
+                <Link className="hover:text-black" href="http://www.linkedin.com/in/regina-gimutao-676a94137">
+                  <p className="text-gray-800 hover:text-teal-500 py-1">Linkedin</p>
+                </Link>
+                <Link className="hover:text-black" href="https://www.facebook.com/Im.Regina.Gimutao">
+                   <p className="text-gray-800 hover:text-teal-500 py-1">Facebook</p>
+                </Link>
+                <Link className="hover:text-black" href="https://www.instagram.com/inahgimutao">
+                  <p className="text-gray-800 hover:text-teal-500 py-1">Instagram</p>
+                </Link>
               </div>
 
           </div>
@@ -133,7 +141,8 @@ export default function Home() {
                 <span className="text-teal-500"> ReactJS </span>
                 ,<span className="text-teal-500"> NextJS </span>
                 ,<span className="text-teal-500"> Typescript </span>
-                and<span className="text-teal-500"> TailwindCSS </span> for styling my projects.
+                and<span className="text-teal-500"> TailwindCSS </span>, 
+                <span className="text-teal-500"> Shadcn/ui </span> for styling my projects.
               </p>
           </div>
 
